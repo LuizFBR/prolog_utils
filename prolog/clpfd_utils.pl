@@ -1,8 +1,9 @@
-% :- module(clpfd_utils,[
-%     pall_distinct/1,
-%     apply_hash/2,
-%     op(700, xfx, pins)
-% ]).
+:- module(clpfd_utils,[
+    pall_distinct/1,
+    apply_hash/2,
+    op(700, xfx, pins),
+    pins/2
+]).
 
 :- use_module(library(clpfd)).
 :- set_prolog_flag(clpfd_monotonic, true).
